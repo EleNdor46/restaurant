@@ -1,0 +1,48 @@
+* {
+  overflow-x: hidden;
+}
+header {
+  /* background-color: rgba(71, 71, 71, 0.637); */
+  width: 100vw;
+  height: 80px;
+  box-shadow: 0px 1px 10px #000;
+  border-radius: 5px;
+}
+
+.btn-header {
+  position: relative;
+  left: 35%;
+  font-size: 30px;
+  transition: 400ms;
+}
+.btn-header :hover{
+  cursor: pointer;
+  color: rgb(212, 5, 5);
+  transition: 300ms;
+}
+
+.header-span {
+  transition: 400ms;
+}
+.header-span:hover {
+  border-bottom: solid 1px rgb(61, 61, 61);
+  cursor: pointer;
+  transform: translateY(-5px);
+  transition: 400ms;
+}
+footer {
+  background-color: rgba(122, 117, 117, 0.356);
+}
+.card-img-top {
+  height: 310px;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+.card-title{
+  overflow-y: hidden;
+}
+.btn-busket{
+  position: fixed;
+  top: 90%;
+  left: 90%;
+}
